@@ -1,0 +1,6 @@
+{% extends "base.html" %}
+{% block content %}
+    <h2>{{ object.title }}</h2>
+    <p>{{ object.entry_text }}</p>
+    <a href="{% url 'entry_list' %}">戻る</a>
+{% endblock %}
