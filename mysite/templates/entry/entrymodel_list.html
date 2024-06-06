@@ -4,7 +4,7 @@
 {% for entry in object_list %}
 <ul>
     <li>{{ entry.title }}</li>
-    <a href="{% url 'detail_entry' entry.pk %}">詳細はこちら</a>
+    <a href="{% url 'entryapp:detail_entry' entry.pk %}">詳細はこちら</a>
 </ul>
 {% endfor %}
 {% endblock %}

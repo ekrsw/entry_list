@@ -17,4 +17,3 @@ class SignUpView(CreateView):
 
 class SignUpSuccessView(TemplateView):
     template_name = 'accounts/signup_success.html'
-    

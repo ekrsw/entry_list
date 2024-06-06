@@ -1,7 +1,7 @@
 from django.urls import path
 from .views import ListEntryView, DetailEntryView
 
-
+app_name = 'entryapp'
 urlpatterns = [
     # path('', views.hello_world, name='index'),
     path('entries/', ListEntryView.as_view(), name='entry_list'),
